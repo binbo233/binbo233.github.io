@@ -15,8 +15,12 @@ body {
   background-color: var(--global-bg-color);
 
   margin: 0;
+  /* The template script reserves space for a fixed footer; this site uses a flow footer. */
+  margin-bottom: 0 !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   padding: $masthead-height 0 0;
-  padding-bottom: 9em;
   font-family: $global-font-family;
   line-height: 1.5;
 

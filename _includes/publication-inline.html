@@ -1,0 +1,21 @@
+{% assign title = post.title %}
+
+<div class="list__item publication-inline__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <h2 class="archive__item-title" itemprop="headline">
+      <span class="publication-inline__title">{{ title }}</span>
+    </h2>
+
+    {% if post.collection == 'publications' and post.venue %}
+      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+    {% endif %}
+
+    {% if post.citation %}
+      <p><strong>Recommended citation:</strong> {{ post.citation }}</p>
+    {% endif %}
+
+    <div class="publication-inline__content" itemprop="articleBody">
+      {{ post.content }}
+    </div>
+  </article>
+</div>

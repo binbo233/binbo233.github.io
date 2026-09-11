@@ -24,10 +24,10 @@ repository               : "binbo233/binbo233.github.io"
 author:
   # Biographic information
   avatar           : "https://github.com/binbo233.png"
-  name             : "binbo"
+  name             : "贡子淇 / Gong Ziqi"
   pronouns         : # example: "she/her"  
-  bio              : "欢迎访问我的个人网站。"
-  location         :
+  bio              : "本科：NJU 广告学<br>硕士：NJU 数字营销（专硕）"
+  location         : "南京大学"
   employer         :
   uri              : # URL
   email            :
@@ -38,7 +38,7 @@ author:
   googlescholar    :
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            :
+  orcid            : "https://orcid.org/0009-0009-0704-5600"
   semantic         : # URL
   ssrn             : # URL
   pubmed           :

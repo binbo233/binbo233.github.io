@@ -30,3 +30,6 @@ redirect_from:
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
+
+<!-- 临时滚动测试区域：确认页脚位置后可以删除。 -->
+<div style="height: 120vh;" aria-hidden="true"></div>

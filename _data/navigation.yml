@@ -16,3 +16,9 @@ main:
 
   - title: "简历"
     url: /cv/
+
+  - title: "兴趣"
+    url: /interests/
+
+  - title: "关于更新"
+    url: /updates/

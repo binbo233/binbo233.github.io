@@ -18,13 +18,22 @@ author_profile: true
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
+        {% if category[0] == 'manuscripts' %}
+          <div class="publication-intro">
+            <p>在正式介绍这篇论文之前，我想先留下几句不那么“论文”的话，说一点更带有“活人感”的东西。</p>
+
+            <p class="publication-intro__paragraph"><img class="publication-intro__image" src="{{ base_path }}/images/left-eye-watch.png" alt="左眼站岗，右眼放哨" loading="lazy" decoding="async">这篇论文诞生于我本科大三参加的 XSpace 实训课程，当时我和王啸老师一起完成了这项研究。可以看到，这个研究当中我们收集了七千多个样本，可以说对这七千多个样本进行编码并不是一件容易的事情。还记得当时一有下课或者一有空闲的时间就开始闷着头编码，一只眼睛盯着帖子，一只眼睛盯着编码表，反复判断、记录、校对……</p>
+
+            <p class="publication-intro__paragraph"><img class="publication-intro__image publication-intro__image--left" src="{{ base_path }}/images/coding-memory.jpg" alt="举起大拇指的卡通人物" loading="lazy" decoding="async">现在回头看，那段看起来有些枯燥的日子，反而成了本科阶段一段很具体、很有意义，也很珍贵的记忆。更幸运的是，当时一起完成这项研究的王啸老师，如今也成为了我的研究生导师。非常感谢他让我在本科阶段就接触到完整的量化研究训练，得以有机会完成这样一篇意义非凡的文章。</p>
+          </div>
+        {% endif %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include publication-inline.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% include publication-inline.html %}
   {% endfor %}
 {% endif %}
 
