@@ -21,3 +21,6 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Local source PDFs used to prepare portfolio pages
+/实习产出/

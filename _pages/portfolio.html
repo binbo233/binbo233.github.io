@@ -7,12 +7,22 @@ author_profile: true
 
 {% include base_path %}
 
+<div class="portfolio-page">
+  <header class="portfolio-page__intro">
+    <p class="portfolio-page__eyebrow">CASE FILES / 实习产出</p>
+    <h2>把做过的事，整理成可以被看见的作品。</h2>
+    <p>这里记录我在品牌营销、内容策划与文化洞察中的实践：从前期研究、策略拆解，到脚本产出、视觉化表达和项目复盘，每个案例都保留一条可追溯的工作链路。</p>
+  </header>
 
-{% if site.portfolio.size > 0 %}
-  {% for post in site.portfolio %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% else %}
-  <p>项目内容正在整理中。</p>
-{% endif %}
+  {% if site.portfolio.size > 0 %}
+    <div class="portfolio-grid">
+      {% assign portfolio_items = site.portfolio | sort: "date" | reverse %}
+      {% for post in portfolio_items %}
+        {% include portfolio-card.html %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>项目内容正在整理中。</p>
+  {% endif %}
+</div>
 
