@@ -3,6 +3,7 @@ title: "三得利乌龙茶｜脚本、brief 与权益核对"
 excerpt: "三项并行的客户执行工作：为小红书 CITY KOL/KOC 修改脚本、策划宝可梦联名活动 brief，并核对节目植入中的品牌权益。"
 collection: portfolio
 date: 2024-08-31
+portfolio_order: 3
 company: "上海沃德达彼思广告有限公司"
 role: "AE（客户执行）实习"
 header:

@@ -2,7 +2,8 @@
 title: "中华薪火｜让历史文字重新被看见"
 excerpt: "从真实报刊中寻找文字，让它们在情绪、时代与字体之间重新建立联系。"
 collection: portfolio
-date: 2025-09-30
+date: 2025-08-20
+portfolio_order: 2
 company: "上海群玉山品牌营销咨询有限公司"
 role: "创意文案实习"
 header:
@@ -112,5 +113,6 @@ tags:
       <div><b>04</b><span>转译视觉</span><small>字体、道具、镜头</small></div>
       <div><b>05</b><span>交付复盘</span><small>形成可核对的文稿</small></div>
     </div>
+    <p class="portfolio-case__source-links">发布链接：<a href="https://mp.weixin.qq.com/s/MtSF2dTZeBevLM1RLwthpA" target="_blank" rel="noopener">相关文章 01</a> · <a href="https://mp.weixin.qq.com/s/QTJtjzsdhmiM3fRotNzN1w" target="_blank" rel="noopener">相关文章 02</a> · <a href="https://mp.weixin.qq.com/s/xMu3Vrm5TQbkjm8mCqiSbQ" target="_blank" rel="noopener">相关文章 03</a></p>
   </section>
 </div>

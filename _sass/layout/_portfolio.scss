@@ -387,6 +387,21 @@
   font-weight: 600;
 }
 
+.portfolio-case .portfolio-case__source-links {
+  margin-top: 1.5em;
+  color: var(--global-text-color-light);
+  font-size: 0.7em !important;
+}
+
+.portfolio-case .portfolio-case__source-links a {
+  color: var(--global-text-color-light);
+  font-size: 1em !important;
+}
+
+.portfolio-case .portfolio-case__source-links a:hover {
+  color: var(--global-link-color);
+}
+
 .portfolio-reader {
   max-width: 68rem;
 }

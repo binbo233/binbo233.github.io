@@ -2,7 +2,8 @@
 title: "爱慕“一缕金”｜把好运缝进一件红品"
 excerpt: "从“人为什么要买本命年红品”出发，把日照金山、祝祷仪式与一根金线，转译成一套能被讲述、被拍摄，也能继续生长的品牌创意。"
 collection: portfolio
-date: 2025-09-30
+date: 2025-12-02
+portfolio_order: 1
 company: "上海群玉山品牌营销咨询有限公司"
 role: "创意文案实习"
 header:
@@ -132,5 +133,6 @@ tags:
     </div>
     <p class="portfolio-case__method">这个 case 也让我意识到，创意策略可以从产品元素提取与用户需求提取同时出发。先对产品进行解构，从功能、形态、材料与使用场景中提炼具有叙事潜力的核心元素；再从产品卖点与用户期待中明确需要传达的价值，在两组信息之间寻找可转译、可组合的连接结构，最后将其落实为具体的材料、动作与视觉语言，让产品故事既保留产品依据，也形成更有创意的表达。</p>
     <p class="portfolio-case__closing">我喜欢这个项目的一点，是它没有把“好运”当成一个需要被解释得很理性的词。它更像一根金线：一头连着山河与仪式，一头连着人的身体和愿望。创意的工作，就是把这根线找出来，再让它顺着品牌继续往前走。</p>
+    <p class="portfolio-case__source-links">发布链接：<a href="https://mp.weixin.qq.com/s/MaXSeyomQkWaGUWnB9ln5g" target="_blank" rel="noopener">微信公众号文章</a></p>
   </section>
 </div>

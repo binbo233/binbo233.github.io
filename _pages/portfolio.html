@@ -16,7 +16,7 @@ author_profile: true
 
   {% if site.portfolio.size > 0 %}
     <div class="portfolio-grid">
-      {% assign portfolio_items = site.portfolio | sort: "date" | reverse %}
+      {% assign portfolio_items = site.portfolio | sort: "portfolio_order" %}
       {% for post in portfolio_items %}
         {% include portfolio-card.html %}
       {% endfor %}
