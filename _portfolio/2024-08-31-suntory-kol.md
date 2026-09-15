@@ -16,7 +16,7 @@ tags:
 
 <div class="portfolio-case">
   <p class="portfolio-case__kicker">上海沃德达彼思广告有限公司 · 2024.07–2024.08</p>
-  <p class="portfolio-case__lead">在三得利项目组，我同时参与了三类不同的客户执行工作：一类是把产品要求写进 KOL/KOC 的真实内容，一类是把联名活动整理成可执行的达人 brief，另一类是把节目植入逐项核对，确保客户购买的权益真的出现在节目里。它们不是同一个活动，而是三条并行的工作线。</p>
+  <p class="portfolio-case__lead portfolio-case__lead--body">在三得利项目组，我同时参与了三类不同的客户执行工作：一类是把产品要求写进 KOL/KOC 的真实内容，一类是把联名活动整理成可执行的达人 brief，另一类是把节目植入逐项核对，确保客户购买的权益真的出现在节目里。它们不是同一个活动，而是三条并行的工作线。</p>
 
   <div class="portfolio-facts">
     <div><span>我的角色</span><strong>AE（客户执行）实习</strong></div>

@@ -24,3 +24,8 @@ package-lock.json
 
 # Local source PDFs used to prepare portfolio pages
 /实习产出/
+
+# Source material used to build the interests pages
+/兴趣.docx
+/兴趣图集/
+~$*.docx

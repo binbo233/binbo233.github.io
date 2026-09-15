@@ -159,41 +159,44 @@
   font-weight: 600;
 }
 
+.portfolio-case .portfolio-case__lead--body {
+  font-size: 1em !important;
+}
+
 .portfolio-case__lead--hook {
   max-width: 60rem;
-  padding: 1.15em 1.35em 1.25em;
-  border-left: 5px solid var(--global-link-color);
-  background: var(--global-code-background-color);
+  padding: 0;
+  border-left: 0;
+  background: transparent;
   font-size: 1em !important;
 }
 
 .portfolio-case__lead--hook strong,
 .portfolio-case__lead--hook span {
   display: block;
+  margin: 0;
+  line-height: 1.85;
 }
 
 .portfolio-case__lead--hook strong {
-  line-height: 1.35;
+  font-weight: 400;
 }
 
 .portfolio-case__lead-hook-intro {
-  margin-bottom: 0.45em;
-  font-size: 1.15em;
-  font-weight: 700;
+  font-size: 0.96em;
+  font-weight: 400;
 }
 
 .portfolio-case__lead-hook-question {
-  margin-bottom: 0.5em;
   color: var(--global-text-color);
-  font-size: 1.15em;
-  font-weight: 700;
+  font-size: 0.96em;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.02em;
 }
 
 .portfolio-case__lead--hook span {
   font-size: 0.96em;
-  line-height: 1.85;
 }
 
 .portfolio-facts {
