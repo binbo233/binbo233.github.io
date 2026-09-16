@@ -37,6 +37,22 @@ bundle exec jekyll serve --livereload
 
 然后打开 <http://localhost:4000>。
 
+## 从本地推送到 GitHub
+
+在 Windows CMD 中进入项目目录，依次执行以下命令：
+
+```cmd
+cd /d "D:\AgentWorkspace\Codex Workspace\binbo的个人网站"
+git status -sb
+git add -A
+git diff --cached --check
+git commit -m "更新网站内容"
+git push origin master
+git status -sb
+```
+
+如果推送时提示远程分支有更新，先执行 `git pull --rebase origin master`，再重新执行 `git push origin master`。
+
 ## 内容维护
 
 - 添加论文：在 `_publications/` 中新增 Markdown 文件
